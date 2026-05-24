@@ -1,0 +1,78 @@
+/* Design System Variables */
+:root {
+    /* Color Palette */
+    --color-bg-primary: #0A0A0C;
+    --color-bg-secondary: #121214;
+    --color-bg-tertiary: #1a1a1d;
+    --color-bg-card: rgba(26, 26, 29, 0.6);
+    
+    /* Text Colors */
+    --color-text-primary: #f5f5f7;
+    --color-text-secondary: #a1a1a6;
+    --color-text-tertiary: #6e6e73;
+    
+    /* Accent Colors - Orange Gradient */
+    --color-accent-orange: #ff6b35;
+    --color-accent-orange-light: #ff8c42;
+    --color-accent-orange-dark: #e55a2b;
+    --gradient-orange: linear-gradient(135deg, #ff6b35 0%, #ff8c42 50%, #ffaa70 100%);
+    --gradient-orange-radial: radial-gradient(circle at top right, #ff8c42, #ff6b35);
+    
+    /* Glow Effects */
+    --glow-orange: rgba(255, 107, 53, 0.25);
+    --glow-orange-strong: rgba(255, 107, 53, 0.5);
+    
+    /* Borders */
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-medium: rgba(255, 255, 255, 0.12);
+    --border-strong: rgba(255, 255, 255, 0.2);
+    --border-accent: rgba(255, 107, 53, 0.3);
+    
+    /* Spacing Scale */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 4rem;
+    --space-3xl: 6rem;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-2xl: 24px;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 30px var(--glow-orange);
+    --shadow-glow-strong: 0 0 50px var(--glow-orange-strong);
+    
+    /* Backdrop Blur */
+    --blur-sm: blur(8px);
+    --blur-md: blur(16px);
+    --blur-lg: blur(24px);
+    
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Z-Index Scale */
+    --z-base: 1;
+    --z-dropdown: 100;
+    --z-sticky: 500;
+    --z-fixed: 1000;
+    --z-modal: 2000;
+    --z-tooltip: 3000;
+    
+    /* Container Width */
+    --container-sm: 720px;
+    --container-md: 960px;
+    --container-lg: 1200px;
+    --container-xl: 1400px;
+}
